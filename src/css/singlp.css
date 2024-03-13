@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.sin{
+
+    width: 100%;
+    border: 1px solid black;
+    height: 930px;
+    display: flex;
+    position: relative;
+    justify-content:center;   
+    background-color: #e2d6d679;
+    border:white;
+    box-shadow:  1px 1px 7px 2px rgb(190, 178, 178);
+   
+}
+
+
+.cn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    right: 20%;
+    margin-top: 130px;
+}
+
+.sp1{
+    font-size:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.big{
+
+position: absolute;
+display: flex;
+justify-content:center;
+align-items: center;
+width: 750px;
+height: 730px;
+box-shadow:  1px 1px 7px 2px rgb(190, 178, 178);
+margin-top: 100px;
+margin-right: 700px;
+}
+
+.p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    font-size: 30px;
+    width: 400px;
+    margin: 30px;
+    line-height: 50px;
+
+}
+
+.order{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    margin-left: 60px;
+    
+
+}
+
+.buut{
+
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 1px 2px 5px 2px rgb(16, 16, 16);
+    border: 1px  white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-color: rgb(91, 42, 42);
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+            
+    }
+
+    .tton{
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        margin: 20px;
+        box-shadow: 1px 2px 5px 2px rgb(16, 16, 16);
+        border: 1px  white;
+        color: white;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        background-color: rgb(91, 42, 42);
+        cursor: pointer;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .buut:hover{
+        background-color:  rgb(86, 83, 83);
+    }
+
+    .tton:hover{
+        background-color:  rgb(86, 83, 83);
+    }
